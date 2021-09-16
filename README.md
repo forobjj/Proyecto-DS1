@@ -1,5 +1,5 @@
 # Nombre del grupo:
-  DS1
+  DS1.
   
 # Integrantes:
   Francisco Alexander Arias Arbelaez
