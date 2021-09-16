@@ -2,7 +2,7 @@
 # DS1
 # Integrantes:
 # Francisco Alexander Arias Arbelaez
-# Jonathan Echeverry Arbelaez
+# Jonathan Echeverri Arbelaez:
 # Alexander Zapata Velasquez
 # Juan Carlos Caycedo
 # Daniel Cavadia Suarez
