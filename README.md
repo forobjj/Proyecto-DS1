@@ -6,6 +6,7 @@
   Jonathan Echeverri Arbelaez<br>
   Junior Millan Perez<br>
   Camilo Hernandez<br>
+  Luisa Fernanda Burgos Alvarez<br>
  <br>
 
 # Informacion del proyecto
