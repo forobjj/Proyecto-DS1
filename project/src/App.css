@@ -1,0 +1,11 @@
+.App {
+  /* text-align: center; */
+  display: flex;
+  justify-content: space-evenly;
+  /* margin: auto; */
+}
+.App div{
+  /* background-color: red; */
+  /* display: flex; */
+}
+
