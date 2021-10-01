@@ -1,16 +1,14 @@
 import React from 'react';
 import './AdminVentas.css';
 
-
-
 export default class AdminVentas extends React.Component{
 
   render(){
     return(
+      
       <div className="contenedor-ventas">
-        
         <div className="contenedor-img">
-          {/* <h1>Nota</h1> */}
+          <h1>Administrar Ventas</h1>
           <p>Nombre Vendedor</p>
           <img alt="FotoVendedor"></img>
         </div>
