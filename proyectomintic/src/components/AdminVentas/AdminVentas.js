@@ -1,8 +1,10 @@
 import React from 'react';
 import './AdminVentas.css';
 
+
+
 export default class AdminVentas extends React.Component{
-  
+
   render(){
     return(
       <div className="contenedor-ventas">
@@ -41,6 +43,7 @@ export default class AdminVentas extends React.Component{
             <input className="enviar" type="submit" id="id-submit" form="id-formulario" value="Registrar Venta"></input>
           </div>
         </div>
+         
       </div>
     )
   }

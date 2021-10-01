@@ -1,11 +1,8 @@
 .App {
   /* text-align: center; */
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   /* margin: auto; */
 }
-.App div{
-  /* background-color: red; */
-  /* display: flex; */
-}
+
 
