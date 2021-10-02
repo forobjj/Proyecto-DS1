@@ -6,6 +6,7 @@ import { LoginButton } from "./components/Login/Login";
 import { LogoutButton } from "./components/Login/Logout";
 import { Profile } from "./components/Login/Profile";
 import logo from './components/Login/logo.svg';
+import {Estados} from './components/Estados/Estados';
 
 function App() {
   const { isAuthenticated } = useAuth0();
