@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 
-import logo from './logo.svg';
-import '.Estados.css';
+import './Estados.css';
 
-function App() {
+
+function Estados() {
   const [nombre,setNombre]=useState("");
   
   
@@ -48,4 +48,4 @@ function App() {
     );
 }
 
-export{Estados};
+export {Estados};
