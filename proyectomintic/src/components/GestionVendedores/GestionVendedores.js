@@ -1,7 +1,7 @@
 import logo from './logo.svg';
-import './App.css';
+import './GestionVendedores.css';
 
-function App() {
+function GestionVendedores() {
   return ( <div className="contenedor-vendedor">
   <div className="contenedor vendedor">
     <h1>Gestion de vendedores</h1>
