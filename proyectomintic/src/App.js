@@ -7,6 +7,7 @@ import { LogoutButton } from "./components/Login/Logout";
 import { Profile } from "./components/Login/Profile";
 import logo from './components/Login/logo.svg';
 import {Estados} from './components/Estados/Estados';
+import {GestionUsuario} from './components/GestionUsuario/GestionUsuario';
 
 function App() {
   const { isAuthenticated } = useAuth0();
@@ -34,8 +35,12 @@ function App() {
           <div className="contenedorEstadoVentas">
             <EstadoVenta></EstadoVenta>
           </div>
-          <div className="estados">
+          <div className="contenedorEstados">
             <Estados></Estados>
+        </div>
+        <br></br>
+        <div className="contenedorGestionUsuario">
+            <GestionUsuario></GestionUsuario>
         </div>
         </div>
       ) : (

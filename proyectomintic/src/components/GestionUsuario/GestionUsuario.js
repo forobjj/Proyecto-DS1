@@ -1,7 +1,7 @@
 import React from 'react';
 import './GestionUsuario.css';
 
-function App() {
+function GestionUsuario() {
   return (
     <React.Fragment>
       <body>
@@ -26,4 +26,4 @@ function App() {
   );
 }
 
-export default App;
+export {GestionUsuario};
