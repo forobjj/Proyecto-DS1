@@ -1,5 +1,6 @@
 import React from 'react';
 import './EstadoVenta.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default class EstadoVenta extends React.Component {
 

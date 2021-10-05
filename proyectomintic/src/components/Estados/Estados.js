@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
-
+import {InputGroup, Button, Container, Modal, ModalBody, ModalHeader, FormGroup, ModalFooter, Breadcrumb, Form, FloatingLabel} from 'reactstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './Estados.css';
 
 
@@ -19,7 +20,7 @@ function Estados() {
     window.alert("Limpiar")
   }
   return (
-    <React.Fragment>
+    <Container >
     <legend className="leggend" name="contenedor">
     <div className="Estados">
       <h1 className="barra" >Venta</h1>
@@ -37,14 +38,15 @@ function Estados() {
         <option value="ubicacion">Ubicación</option>
         </select> 
       </div>
-      <div className="button" > 
-      <button onClick={guardarClick}>Guardar</button>
-      <button onClick={limpiarClick}>Limpiar</button>
+      <div > 
+      <Button color="primary" onClick={guardarClick}>Guardar</Button>
+      <Button color="danger" onClick={limpiarClick}>Limpiar</Button>
+      
       
       <onselect in="estado" name="estado" value={"Creación"}></onselect>
     </div>
     </legend>
-    </React.Fragment>
+    </Container>
     );
 }
 

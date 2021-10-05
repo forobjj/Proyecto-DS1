@@ -34,6 +34,9 @@ function App() {
           <div className="contenedorEstadoVentas">
             <EstadoVenta></EstadoVenta>
           </div>
+          <div className="estados">
+            <Estados></Estados>
+        </div>
         </div>
       ) : (
         <br></br>
