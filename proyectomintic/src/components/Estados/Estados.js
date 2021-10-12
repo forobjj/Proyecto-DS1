@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
-import {InputGroup, Button, Container, Modal, ModalBody, ModalHeader, FormGroup, ModalFooter, Breadcrumb, Form, FloatingLabel} from 'reactstrap';
+import {Button, Container}from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Estados.css';
 
 
-function Estados() {
+export default function Estados() {
   const [nombre,setNombre]=useState("");
   
   
@@ -22,7 +22,7 @@ function Estados() {
   return (
     <Container >
     <legend className="leggend" name="contenedor">
-    <div className="Estados">
+    <div className="estados">
       <h1 className="barra" >Venta</h1>
       <label >ID: </label>
       <input   id="nombre" name="nombre" value={nombre} onChange={cambiarNombre}></input>
@@ -50,4 +50,3 @@ function Estados() {
     );
 }
 
-export {Estados};

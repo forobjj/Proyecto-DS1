@@ -1,7 +1,7 @@
 import React from 'react';
 import './GestionUsuario.css';
 
-function GestionUsuario() {
+export default function GestionUsuario() {
   return (
     <React.Fragment>
       <body>
@@ -26,4 +26,4 @@ function GestionUsuario() {
   );
 }
 
-export {GestionUsuario};
+

@@ -1,0 +1,19 @@
+.btn-group{
+    background-color: #fff;
+    min-width: 98vw;
+    margin: 10px ;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+
+}
+.btn:hover{
+    background-color:   rgb(92, 238, 128);
+    outline: none;
+    border: none;
+}
+.btn:focus{
+    background-color:   rgb(92, 238, 128);
+    outline: none;
+    border: none;
+}

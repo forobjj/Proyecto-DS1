@@ -1,48 +1,36 @@
-*{
-  background-color:rgb(160, 155, 173);
 
-}
 
 .contenedor-vendedor{
   text-align:center;
   position: relative;
-  margin: 0 auto;
-  border: 2px solid red;
+  /* margin: 0 auto; */
+  /* border: 2px solid red; */
   min-width: 50vw;
-  max-width: 80vw;
-  min-height: 80vh;
+  
+  min-height: 90vh;
   border: 2px solid #fff;
   border-radius: 5px;
-  box-shadow: -1px -1px 29px 2px rgb(167, 28, 167);
+  /* box-shadow: -1px -1px 29px 2px rgb(167, 28, 167); */
 }
 
-.contenedor-formulario{
+.contenedor-formularioG{
   text-align:center;
   position: relative;
-  margin-top:30px;
-  margin: 0 auto;
+  margin:40px;
+ 
 }
-.formulario{
-  text-align:center;
-  display: grid;
-  grid-template-rows: 350px;
-  grid-template-columns: repeat(auto-fill,minmax(200px,350px));
-  grid-auto-rows: auto-fill;
-  width: 100%;
-  justify-content: center;
-}
-.contenedor-izquierda{
-  margin: 10px;
+.contenedor-izquierdaG{
+  margin-left:40px; 
   display: flex;
   flex-direction: column;
-  justify-content: center; 
+  justify-content: space-around; 
   text-align:center;
 }
-.contenedor-izquierda > *{
+.contenedor-izquierdaG > *{
   margin: 6px 10px;
   text-align:center;
 }
-.contenedor-izquierda input{
+.contenedor-izquierdaG input{
   width: 80%;
   padding:10px 0;
   outline: none;
@@ -52,18 +40,18 @@
  
 }
 
-.contenedor-enviar{
+.contenedor-enviarG{
   text-align: center;
   margin: 40px 0;
 }
-.enviar{
+.enviarG{
   padding: 13px 30px;
   border: 2px solid #222;
   border-radius: 10px;
   transition: color .7s, background-color .7s, transform .7s;
   cursor: pointer;
 }
-.enviar:hover{
+.enviarG:hover{
   background-color: #eee;
   color:#000;
   font-weight: bold;

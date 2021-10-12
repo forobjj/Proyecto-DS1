@@ -1,14 +1,13 @@
-import logo from './logo.svg';
 import './GestionVendedores.css';
 
 function GestionVendedores() {
   return ( <div className="contenedor-vendedor">
-  <div className="contenedor vendedor">
+  <div className="contenedorvendedor">
     <h1>Gestion de vendedores</h1>
   </div>
-  <div className="contenedor-formulario">
-    <form className="formulario" id="id-formulario">
-      <div className="contenedor-izquierda">
+  <div className="contenedor-formularioG">
+    <form className="formularioG" id="id-formulario">
+      <div className="contenedor-izquierdaG">
         <label for="id-vendedor">ID Vendedor</label>
         <input type="id-Vendedor" id="Id vendedor" required placeholder="Ingrese el ID del vendedor"></input>
         <label for="id-nombre">Nombre</label>
@@ -22,8 +21,8 @@ function GestionVendedores() {
       </div>
       
     </form>
-    <div className="contenedor-enviar">
-      <input className="enviar" type="submit" id="id-submit" form="id-formulario" value="Registrar Vendedor"></input>
+    <div className="contenedor-enviarG">
+      <input className="enviarG" type="submit" id="id-submit" form="id-formulario" value="Registrar Vendedor"></input>
     </div>
   </div>
    
@@ -31,4 +30,4 @@ function GestionVendedores() {
   );
 }
 
-export default App;
+export default GestionVendedores;

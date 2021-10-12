@@ -1,0 +1,37 @@
+.contenedor{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    border-radius: 5px;
+    overflow: hidden;
+    /* background-color: red; */
+}
+.cerrar{
+    background-color: red;
+    color:#fff;
+    transition: background-color .7s;
+    border:none;
+
+}
+.cerrar:hover{
+    background-color:   rgb(92, 238, 128);
+    color:#000;
+    border: none;
+}
+.iniciar{
+    background-color:   rgb(92, 238, 128);
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: transform .7s, color .7s, background-color .7s;
+}
+.iniciar:hover{
+    transform: scale(1.1);
+    color:#fff;
+    background-color:   rgb(74, 168, 98);
+    
+}

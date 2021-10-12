@@ -33,7 +33,7 @@ export default class AdminVentas extends React.Component{
               <label for="id-fecha">Fecha</label>
               <input type="date" id="id-fecha" required></input>
               <label for="id-descripcion">Descripción</label>
-              <textarea id="id-descripcion" rows="5" cols="25" placeholder="Descripcion de la venta"></textarea>
+              <textarea id="id-descripcion" rows="2" cols="25" placeholder="Descripcion de la venta"></textarea>
             </div>
             
           </form>
